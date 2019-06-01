@@ -17,7 +17,6 @@ class CashRegister
       @items << title 
       end 
     @last_transaction = price * quantity   
-    #binding.pry
   end 
   
   def apply_discount
