@@ -26,19 +26,4 @@ class CashRegister
     @discount? "After the discount, the total comes to $#{self.total.to_i}." : "There is no discount to apply."
   end 
   
- def items
- if @quantity = 1
-      @@items << self.title 
-      # binding.pry
-
-    else 
-      counter = 1
-      while counter < @quantity
-        @@items << @title
-        counter =+ 1
-    end     
-   end 
-   @@items 
-   
-   end 
 end   
