@@ -32,7 +32,7 @@ class CashRegister
       # binding.pry
 
     else 
-      counter = 0
+      counter = 1
       while counter < @quantity
         @@items << @title
         counter =+ 1
